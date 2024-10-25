@@ -6,11 +6,13 @@ import Footer from './components/Footer';
 import './App.css';
 import TopDiyaRepeat from './components/TopDiyaRepeat';
 import RotatingRangoli from './components/RotatingRangoli';
+import Fireworks from './components/Firework';
 
 function App() {
   return (
     <div className="App">
       {/* <Header /> */}
+      <Fireworks />
       <TopDiyaRepeat />
       <DiwaliWishFontImage />
       <RotatingRangoli />
