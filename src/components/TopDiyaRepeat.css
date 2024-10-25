@@ -1,0 +1,35 @@
+.repeating-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden; /* Hide overflow */
+  animation: slideIn 2s ease forwards; /* Animation properties */
+}
+
+.repeating-image {
+  width: 200px; /* Set your desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: -10px; /* Adjust spacing between images */
+  opacity: 0; /* Start transparent for animation */
+  animation: fadeIn 1s forwards; /* Animation for each image */
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(-100%); /* Start from the top */
+      opacity: 0; /* Start transparent */
+  }
+  100% {
+      transform: translateY(0); /* End in place */
+      opacity: 1; /* Fully visible */
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0; /* Start transparent */
+  }
+  100% {
+      opacity: 1; /* Fully visible */
+  }
+}

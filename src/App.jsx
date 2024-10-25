@@ -1,16 +1,18 @@
 import React from 'react';
 import Header from './components/Header';
-import Carousel from './components/Carousel';
+import DiwaliWishFontImage from './components/DiwaliWishFontImage';
 import Events from './components/Events';
 import Footer from './components/Footer';
 import './App.css';
+import TopDiyaRepeat from './components/TopDiyaRepeat';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Carousel />
-      <Events />
+      {/* <Header /> */}
+      <TopDiyaRepeat />
+      <DiwaliWishFontImage />
+      {/* <Events /> */}
       <Footer />
     </div>
   );
