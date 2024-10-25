@@ -1,7 +1,7 @@
 .repeating-container {
   display: flex;
   flex-direction: row;
-  position: relative;
+  position: absolute;
   overflow: hidden; /* Hide overflow */
   animation: slideIn 2s ease forwards; /* Animation properties */
 }

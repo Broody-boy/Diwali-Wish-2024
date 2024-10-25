@@ -8,13 +8,13 @@
 }
 
 .rangoli-container.visible {
-  opacity: 0.5; /* Become visible */
+  opacity: 0.2; /* Become visible */
 }
 
 .rotating-rangoli {
-  width: 200px;
-  height: 200px;
-  animation: rotate 10s linear infinite; /* Infinite rotation */
+  width: 500px;
+  height: 500px;
+  animation: rotate 20s linear infinite; /* Infinite rotation */
 }
 
 @keyframes rotate {
