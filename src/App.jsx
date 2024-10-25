@@ -7,6 +7,7 @@ import './App.css';
 import TopDiyaRepeat from './components/TopDiyaRepeat';
 import RotatingRangoli from './components/RotatingRangoli';
 import Fireworks from './components/Firework';
+import DiyaAnimation from './components/DiyaAnimation';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       {/* <Header /> */}
       <Fireworks />
       <TopDiyaRepeat />
+      <DiyaAnimation />
       <DiwaliWishFontImage />
       <RotatingRangoli />
       {/* <Events /> */}
