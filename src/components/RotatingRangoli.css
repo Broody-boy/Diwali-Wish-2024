@@ -1,0 +1,27 @@
+.rangoli-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Initially invisible */
+  transition: opacity 1s ease; /* Fade-in effect */
+}
+
+.rangoli-container.visible {
+  opacity: 0.5; /* Become visible */
+}
+
+.rotating-rangoli {
+  width: 200px;
+  height: 200px;
+  animation: rotate 10s linear infinite; /* Infinite rotation */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

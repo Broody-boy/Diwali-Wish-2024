@@ -5,6 +5,7 @@ import Events from './components/Events';
 import Footer from './components/Footer';
 import './App.css';
 import TopDiyaRepeat from './components/TopDiyaRepeat';
+import RotatingRangoli from './components/RotatingRangoli';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Header /> */}
       <TopDiyaRepeat />
       <DiwaliWishFontImage />
+      <RotatingRangoli />
       {/* <Events /> */}
       <Footer />
     </div>
