@@ -8,12 +8,14 @@ import TopDiyaRepeat from './components/TopDiyaRepeat';
 import RotatingRangoli from './components/RotatingRangoli';
 import Fireworks from './components/Firework';
 import DiyaAnimation from './components/DiyaAnimation';
+import StartButton from './components/StartButton';
 
 function App() {
   return (
     <div className="App">
       {/* <Header /> */}
       <Fireworks />
+      <StartButton />
       <TopDiyaRepeat />
       <DiyaAnimation />
       <DiwaliWishFontImage />
